@@ -86,7 +86,7 @@ def sql_maker(rows='', table='', sql_query='', upd_arg='', argument=''):
 def sql_insert(query_dict):
     """
     принимает словарь с обязательным значением 'table'
-    далее в словаре необзодимо указать колонки с данными которые надо вставить
+    далее в словаре необходимо указать колонки с данными которые надо вставить
     пример:
     sql_insert({'table': 'table_name', 'id': 1, 'username': 'Username'})
     """
